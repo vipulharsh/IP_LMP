@@ -1,14 +1,14 @@
 # IP_LMP
 Computes optimal number of longest matching prefix forwarding rules corresponding to (IP, output port) type forwarding entries.
 
-Compile:  
-    make
+Compile: make
 
-Run a small test program:
-    make test
+Run a small test program: make test
 
 Sample run:
+
     ./genRoutingTable < graph1.edgelist > routingEntries.out
+
     ./IP_lmp < routingEntries.out
 
 
